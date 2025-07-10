@@ -56,7 +56,7 @@ export const TrustSection = () => {
                 <point.icon className="h-8 w-8 text-primary" />
               </div>
               <div>
-                <h3 className="font-semibold text-primary-foreground mb-2">
+                <h3 className="font-semibold text-primary-foreground mb-2 text-base sm:text-lg">
                   {point.title}
                 </h3>
                 <p className="text-primary-foreground/80 text-sm">

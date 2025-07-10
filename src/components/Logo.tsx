@@ -8,6 +8,8 @@ export const Logo = () => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         className="h-12 w-12"
+        role="img"
+        aria-label="USA Garage Experts Logo"
       >
         <g>
           {/* Shield background */}
