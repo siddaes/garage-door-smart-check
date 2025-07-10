@@ -20,10 +20,10 @@ const DiagnosticPanel = ({ issue, description, urgency, mistakes, checklist, saf
       <CardContent className="p-0">
         <button
           onClick={onClick}
-          className="w-full p-6 text-left flex items-center justify-between hover:bg-muted/20 transition-colors"
+          className="w-full p-4 sm:p-6 text-left flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 sm:gap-4 hover:bg-muted/20 transition-colors text-base sm:text-lg whitespace-normal break-words"
         >
-          <span className="text-lg font-semibold text-foreground">{issue}</span>
-          <ChevronDown className={`h-5 w-5 transition-transform ${isOpen ? 'rotate-180' : ''}`} />
+          <span className="font-semibold text-foreground w-full text-left">{issue}</span>
+          <ChevronDown className={`h-5 w-5 flex-shrink-0 transition-transform ${isOpen ? 'rotate-180' : ''}`} />
         </button>
         
         {isOpen && (
