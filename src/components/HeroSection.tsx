@@ -23,7 +23,7 @@ export const HeroSection = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-            Click your issue below, follow our simple checklist, and get expert help — fast.
+            Click your issue below, follow our simple checklist, and get expert help fast.
           </p>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8 max-w-4xl mx-auto">

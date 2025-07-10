@@ -27,7 +27,7 @@ export const TestimonialsSection = () => {
     },
     {
       rating: 5,
-      text: "Their emergency service is incredible. My garage door broke on a Sunday morning and they had someone out within 2 hours. Professional and fairly priced.",
+      text: "Their emergency service is incredible. My garage door broke on a Sunday and they had someone out within 2 hours.",
       author: "Mike D.",
       location: "Dallas"
     },

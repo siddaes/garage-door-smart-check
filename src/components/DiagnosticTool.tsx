@@ -88,7 +88,7 @@ const DiagnosticPanel = ({ issue, description, urgency, mistakes, checklist, saf
               
               <Button 
                 className="w-full bg-gradient-cta text-primary-foreground hover:shadow-hover transition-all duration-300 font-bold"
-                onClick={() => window.open('tel:+1-800-GARAGE-1')}
+                onClick={() => window.open('tel:+19545396734')}
               >
                 <Phone className="mr-2 h-5 w-5" />
                 Speak to a Certified Tech Now
