@@ -92,7 +92,7 @@ const DiagnosticPanel = ({ issue, description, urgency, mistakes, checklist, saf
               
               <Button 
                 className="w-full bg-gradient-to-r from-primary to-primary/90 hover:from-primary/90 hover:to-primary text-white font-bold text-xs sm:text-sm md:text-base py-3 sm:py-4 px-4 sm:px-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-[1.02]"
-                onClick={() => window.open('tel:+19545396734')}
+                onClick={() => window.open('tel:+19513794799')}
               >
                 <Phone className="mr-2 sm:mr-3 h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0" />
                 <span className="whitespace-normal break-words leading-tight">Speak to a Certified Tech Now</span>

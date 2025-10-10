@@ -11,7 +11,7 @@ export const Header = () => {
           
           <Button 
             className="bg-gradient-cta text-primary-foreground hover:shadow-hover transition-all duration-300 font-semibold"
-            onClick={() => window.open('tel:+19545396734')}
+            onClick={() => window.open('tel:+19513794799')}
             aria-label="Call USA Garage Experts for emergency repair"
           >
             <Phone className="mr-2 h-4 w-4" />

@@ -8,11 +8,11 @@ export const Footer = () => {
         <div className="flex flex-col items-start md:col-span-1">
           <Logo />
           <a
-            href="tel:+19545396734"
+            href="tel:+19513794799"
             className="mt-4 text-2xl font-bold text-[#ff7f1a] hover:underline md:ml-8"
-            aria-label="Call USA Garage Experts at (954) 539-6734"
+            aria-label="Call USA Garage Experts at (951) 379-4799"
           >
-            (954) 539-6734
+            (951) 379-4799
           </a>
           <div className="mt-2 text-sm text-gray-300 md:ml-8 text-left">
             24/7 Emergency Service<br />
