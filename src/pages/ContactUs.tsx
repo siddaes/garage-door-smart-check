@@ -77,7 +77,12 @@ const ContactUs = () => {
               <div className="bg-card p-8 rounded-lg border border-border">
                 <h3 className="text-2xl font-bold text-foreground mb-6">Request Service</h3>
                 
-                <form className="space-y-6">
+                <form className="space-y-6" method="POST" action="https://api.web3forms.com/submit">
+                  <input type="hidden" name="access_key" value="128ad982-73a1-40a8-9a3d-40e7c05bbd85" />
+                  <input type="hidden" name="subject" value="New Service Request - USA Garage Experts" />
+                  <input type="hidden" name="from_name" value="USA Garage Experts Website" />
+                  <input type="hidden" name="to" value="usagaragexperts@gmail.com" />
+                  <input type="hidden" name="redirect" value="https://web3forms.com/success" />
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
                       Full Name
@@ -85,6 +90,8 @@ const ContactUs = () => {
                     <input
                       type="text"
                       id="name"
+                      name="name"
+                      required
                       className="w-full px-4 py-3 bg-background border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition"
                       placeholder="Your full name"
                     />
@@ -97,6 +104,7 @@ const ContactUs = () => {
                     <input
                       type="tel"
                       id="phone"
+                      name="phone"
                       className="w-full px-4 py-3 bg-background border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition"
                       placeholder="Your phone number"
                     />
@@ -109,6 +117,8 @@ const ContactUs = () => {
                     <input
                       type="email"
                       id="email"
+                      name="email"
+                      required
                       className="w-full px-4 py-3 bg-background border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition"
                       placeholder="Your email address"
                     />
@@ -121,6 +131,7 @@ const ContactUs = () => {
                     <input
                       type="text"
                       id="location"
+                      name="location"
                       className="w-full px-4 py-3 bg-background border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition"
                       placeholder="Your city and state"
                     />
@@ -132,13 +143,16 @@ const ContactUs = () => {
                     </label>
                     <textarea
                       id="issue"
+                      name="message"
                       rows={4}
+                      required
                       className="w-full px-4 py-3 bg-background border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition"
                       placeholder="Please describe your garage door issue"
                     ></textarea>
                   </div>
                   
                   <Button 
+                    type="submit"
                     className="w-full bg-gradient-cta text-primary-foreground hover:shadow-hover transition-all duration-300 font-semibold py-6"
                   >
                     <MessageSquare className="mr-2 h-5 w-5" />

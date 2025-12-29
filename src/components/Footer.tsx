@@ -18,7 +18,7 @@ export const Footer = () => {
             Garagemenders Inc<br />
             6340 N Eldridge Pkwy N #117<br />
             Houston, TX 77041<br />
-            Phone: (860) 370-3487<br />
+            Phone: (951) 379-4799<br />
             <a href="http://www.garagemendersinc.com" className="hover:text-[#ff7f1a] transition-colors">www.garagemendersinc.com</a>
           </div>
         </div>
