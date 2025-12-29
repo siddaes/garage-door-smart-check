@@ -16,9 +16,10 @@ export const Footer = () => {
           </a>
           <div className="mt-2 text-sm text-gray-300 text-left">
             Garagemenders Inc<br />
-            Address: 6340 N Eldridge Pkwy N #117, Houston TX 77041<br />
-            Phone: 860-370-3487<br />
-            Website: www.garagemendersinc.com
+            6340 N Eldridge Pkwy N #117<br />
+            Houston, TX 77041<br />
+            Phone: (860) 370-3487<br />
+            <a href="http://www.garagemendersinc.com" className="hover:text-[#ff7f1a] transition-colors">www.garagemendersinc.com</a>
           </div>
         </div>
 
@@ -64,12 +65,12 @@ export const Footer = () => {
       </div>
       <div className="mt-8 text-center text-xs text-gray-400 mb-16">
         &copy; {new Date().getFullYear()} USA Garage Experts. All rights reserved.
-        <div className="mt-4">
-          <a href="/privacy-policy" className="hover:text-[#ff7f1a] transition-colors mx-2">Privacy Policy</a>
-          <a href="/terms-of-service" className="hover:text-[#ff7f1a] transition-colors mx-2">Terms of Service</a>
-          <a href="/about-us" className="hover:text-[#ff7f1a] transition-colors mx-2">About Us</a>
-          <a href="/disclaimer" className="hover:text-[#ff7f1a] transition-colors mx-2">Disclaimer</a>
-          <a href="/contact-us" className="hover:text-[#ff7f1a] transition-colors mx-2">Contact Us</a>
+        <div className="mt-4 flex flex-wrap justify-center gap-2">
+          <a href="/privacy-policy" className="hover:text-[#ff7f1a] transition-colors">Privacy Policy</a>
+          <a href="/terms-of-service" className="hover:text-[#ff7f1a] transition-colors">Terms of Service</a>
+          <a href="/about-us" className="hover:text-[#ff7f1a] transition-colors">About Us</a>
+          <a href="/disclaimer" className="hover:text-[#ff7f1a] transition-colors">Disclaimer</a>
+          <a href="/contact-us" className="hover:text-[#ff7f1a] transition-colors">Contact Us</a>
         </div>
       </div>
     </footer>
