@@ -6,7 +6,7 @@ export const HeroSection = () => {
     { icon: CheckCircle, text: "Trusted by 12,000+ homeowners" },
     { icon: Shield, text: "Certified technicians" },
     { icon: Clock, text: "Emergency repairs in under 2 hours" },
-    { icon: Star, text: "No pricing shown — free diagnosis by phone" }
+    { icon: Star, text: "No pricing shown, free diagnosis by phone" }
   ];
 
   const scrollToDiagnostic = () => {
